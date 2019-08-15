@@ -1,0 +1,47 @@
+h1, p {
+  font-family: Lato;
+}
+
+.divver {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100vh;
+}
+
+.cl1 {
+  border: 2px solid red;
+  height: 40vh;
+  width: 25%;
+  order: 1;
+}
+
+.cl2 {
+  border: 2px solid purple;
+  height: 10vh;
+  min-width: 100%;
+  flex: 1;
+  order: 3;
+}
+
+.cl3 {
+  border: 2px solid green;
+  height: 10vh;
+  flex: 1;
+  min-width: 100%;
+  order: 3;
+}
+.cl4 {
+  border: 2px solid blue;
+  height: 10vh;
+  flex: 1;
+  min-width: 100%;
+  order: 3;
+}
+.cl5 {
+  border: 2px solid orange;
+  height: 40vh;
+  width: 25%;
+  order: 2;
+}
